@@ -1,2 +1,2 @@
-# repo
-a repo not sure what i'm gonna make yet
+# CodeLearn
+Getting started with learning code
