@@ -1,0 +1,48 @@
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  height: 90vh;
+  gap: 10px;
+  border-right: 1px solid black;
+}
+.sidebarBtn {
+  height: 30px;
+  cursor: pointer; 
+  width: 100px;
+}
+#collapseBtn {
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 40px;
+  cursor: pointer;
+}
+#page {
+  display: flex;
+  gap: 20px;
+}
+#sidebar.hidden {
+  display: none;
+}
+#right {
+  hr {
+    width: 90vw;
+  }
+  #theme {
+    width: 100px;
+    height: 35px;
+  }
+}
+#stats {
+  background-color: rgb(255, 166, 0);
+  height: 40vh;
+  width: 15vw;
+  h2 {
+    margin-left: 10px;
+  }
+  p {
+    margin-left: 10px;
+  }
+}
