@@ -19,3 +19,8 @@ const dashboardBtn = document.getElementById("dashboardBtn")
 dashboardBtn.addEventListener("click",function() {
   window.location.href = "index.html";
 });
+//games button
+const gamesBtn = document.getElementById("gamesBtn")
+gamesBtn.addEventListener("click",function() {
+  window.location.href = "games.html"
+})
