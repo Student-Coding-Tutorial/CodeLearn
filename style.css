@@ -11,7 +11,7 @@
   cursor: pointer; 
   width: 100px;
 }
-#collapseBtn {
+.collapseBtn {
   width: 50px;
   background-color: transparent;
   border: none;
@@ -28,7 +28,7 @@
 }
 #right {
   hr {
-    width: 93vw;
+    width: 87vw;
   }
   #theme {
     width: 100px;
@@ -45,4 +45,18 @@
   p {
     margin-left: 10px;
   }
+}
+#leftTop {
+  display: flex;
+}
+.homeLinkBtn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#html {
+  height: 50px;
+  width: 100px;
+  background-color: orangered;
 }

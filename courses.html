@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Tutorials</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/code.png">
   </head>
   <body>
+    <!--left-->
     <div id="page">
       <div id="left">
-        <button class=collapseBtn>☰</button>
-        <button class="homeLinkBtn">
+        <div id="leftTop">
+          <button class=collapseBtn>☰</button>
+          <button class="homeLinkBtn">
             <img src="img/code (1).png" alt="Homelink" width="50" height="50">
           </button>
+        </div>
         <div id="sidebar">
           <button id=coursesBtn class="sidebarBtn">Courses</button>
           <button id="myTutorialsBtn" class="sidebarBtn">My Tutorials</button>
@@ -22,10 +25,14 @@
       </div>
       <!--right-->
       <div id="right">
-        <h1>Welcome to My Tutorials!</h1>
+        <h1>Welcome to Courses!</h1>
         <hr id="hr1">
+        <u><h2>Available Courses</h2></u>
+        <div id="courses">
+          <button id="html">HTML</button>
+        </div>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 </html>
